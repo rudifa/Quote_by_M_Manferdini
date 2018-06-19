@@ -15,6 +15,7 @@
 		9D096F1120D9396100D40F66 /* Quote_by_M_ManferdiniTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D096F1020D9396100D40F66 /* Quote_by_M_ManferdiniTests.swift */; };
 		9D096F1D20D93A8A00D40F66 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D096F1C20D93A8A00D40F66 /* Quote.swift */; };
 		9D096F1F20D93A9F00D40F66 /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D096F1E20D93A9F00D40F66 /* ModelController.swift */; };
+		9D096F2420D9856700D40F66 /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D096F2320D9856700D40F66 /* EditViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +42,7 @@
 		9D096F1C20D93A8A00D40F66 /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
 		9D096F1E20D93A9F00D40F66 /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
 		9D096F2020D969B500D40F66 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		9D096F2320D9856700D40F66 /* EditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 				9D096F0420D9396100D40F66 /* LaunchScreen.storyboard */,
 				9D096F0720D9396100D40F66 /* Info.plist */,
 				9D096F2020D969B500D40F66 /* README.md */,
+				9D096F2320D9856700D40F66 /* EditViewController.swift */,
 			);
 			path = Quote_by_M_Manferdini;
 			sourceTree = "<group>";
@@ -213,6 +216,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D096F2420D9856700D40F66 /* EditViewController.swift in Sources */,
 				9D096EFE20D9396000D40F66 /* QuoteViewController.swift in Sources */,
 				9D096F1F20D93A9F00D40F66 /* ModelController.swift in Sources */,
 				9D096F1D20D93A8A00D40F66 /* Quote.swift in Sources */,
