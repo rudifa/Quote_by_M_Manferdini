@@ -10,10 +10,16 @@ import UIKit
 
 class EditViewController: UIViewController {
 
+    @IBOutlet weak var editTextQuoteView: UITextView!
+
+    @IBOutlet weak var authorTextView: UITextField!
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
     }
 
+    @IBAction func saveQuoteButtonPressed(_ sender: Any) {
+        
+    }
 }

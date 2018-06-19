@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  QuoteViewController.swift
 //  Quote_by_M_Manferdini
 //
 //  Created by Rudolf Farkas on 19.06.18.

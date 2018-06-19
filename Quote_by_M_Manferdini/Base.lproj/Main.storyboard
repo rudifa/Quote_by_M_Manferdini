@@ -141,9 +141,17 @@
                     </view>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" title="Title" id="jld-dY-zUU">
-                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="3b2-l8-UIy"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="3b2-l8-UIy">
+                            <connections>
+                                <action selector="saveQuoteButtonPressed:" destination="i42-o9-LVe" id="L4j-1a-gQO"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="authorTextView" destination="03l-l9-G8E" id="7jJ-s7-Vru"/>
+                        <outlet property="editTextQuoteView" destination="gxj-DE-RVk" id="itd-2a-hLb"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tM4-F0-bqd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
