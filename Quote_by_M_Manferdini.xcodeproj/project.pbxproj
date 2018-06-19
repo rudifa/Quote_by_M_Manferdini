@@ -40,6 +40,7 @@
 		9D096F1220D9396100D40F66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9D096F1C20D93A8A00D40F66 /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
 		9D096F1E20D93A9F00D40F66 /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
+		9D096F2020D969B500D40F66 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +89,7 @@
 				9D096F0220D9396100D40F66 /* Assets.xcassets */,
 				9D096F0420D9396100D40F66 /* LaunchScreen.storyboard */,
 				9D096F0720D9396100D40F66 /* Info.plist */,
+				9D096F2020D969B500D40F66 /* README.md */,
 			);
 			path = Quote_by_M_Manferdini;
 			sourceTree = "<group>";
