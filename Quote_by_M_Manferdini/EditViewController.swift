@@ -10,6 +10,8 @@ import UIKit
 
 class EditViewController: UIViewController {
 
+    var quote: Quote?
+    
     @IBOutlet weak var editTextQuoteView: UITextView!
 
     @IBOutlet weak var authorTextView: UITextField!
@@ -17,6 +19,8 @@ class EditViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        editTextQuoteView.text = quote?.text
+        authorTextView.text = quote?.author
     }
 
     @IBAction func saveQuoteButtonPressed(_ sender: Any) {
