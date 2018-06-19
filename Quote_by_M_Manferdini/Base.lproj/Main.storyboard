@@ -149,8 +149,8 @@
                     </navigationItem>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
-                        <outlet property="authorTextView" destination="03l-l9-G8E" id="7jJ-s7-Vru"/>
-                        <outlet property="editTextQuoteView" destination="gxj-DE-RVk" id="itd-2a-hLb"/>
+                        <outlet property="authorTextField" destination="03l-l9-G8E" id="7jJ-s7-Vru"/>
+                        <outlet property="quoteTextView" destination="gxj-DE-RVk" id="itd-2a-hLb"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tM4-F0-bqd" userLabel="First Responder" sceneMemberID="firstResponder"/>

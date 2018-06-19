@@ -8,22 +8,28 @@
 
 import UIKit
 
+protocol EditViewControllerDelegate: class {
+    func quoteWasSaved(quote: Quote)
+}
+
 class EditViewController: UIViewController {
 
     var quote: Quote?
+    weak var delegate: EditViewControllerDelegate?
     
-    @IBOutlet weak var editTextQuoteView: UITextView!
-
-    @IBOutlet weak var authorTextView: UITextField!
+    @IBOutlet weak var quoteTextView: UITextView!
+    @IBOutlet weak var authorTextField: UITextField!
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        editTextQuoteView.text = quote?.text
-        authorTextView.text = quote?.author
+        quoteTextView.text = quote?.text
+        authorTextField.text = quote?.author
     }
 
-    @IBAction func saveQuoteButtonPressed(_ sender: Any) {
-        
+    @IBAction func saveQuoteButtonPressed(_ sender: AnyObject) {
+        let newQuote = Quote(text: quoteTextView.text, author: authorTextField.text!)
+        delegate?.quoteWasSaved(quote: newQuote)
+        self.navigationController?.popViewController(animated: true)
     }
 }

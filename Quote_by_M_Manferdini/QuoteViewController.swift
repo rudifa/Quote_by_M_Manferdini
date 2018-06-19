@@ -8,7 +8,7 @@
 
 import UIKit
 
-class QuoteViewController: UIViewController {
+class QuoteViewController: UIViewController, EditViewControllerDelegate {
 
     @IBOutlet weak var quoteTextLabel: UILabel!
     @IBOutlet weak var quoteAuthorLabel: UILabel!
@@ -26,7 +26,18 @@ class QuoteViewController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let editViewController = segue.destination as? EditViewController {
             editViewController.quote = modelController.quote
+            editViewController.delegate = self
         }
+    }
+
+    func quoteWasSaved(quote: Quote) {
+        modelController.quote = quote
+        updateUIWithQuote(quote: quote)
+    }
+
+    func updateUIWithQuote(quote: Quote) {
+        quoteTextLabel.text = quote.text
+        quoteAuthorLabel.text = quote.author
     }
 
 }
