@@ -41,7 +41,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Author Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IYo-Hn-r8M">
-                                <rect key="frame" x="277.5" y="178" width="97.5" height="21"/>
+                                <rect key="frame" x="247.5" y="178" width="97.5" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -52,7 +52,6 @@
                             <constraint firstItem="BPJ-Vr-xqL" firstAttribute="top" secondItem="A26-5B-UMm" secondAttribute="top" constant="20" id="3TF-lY-nmt"/>
                             <constraint firstItem="IYo-Hn-r8M" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" constant="-30" id="6tE-Dk-ny0"/>
                             <constraint firstItem="2eX-Vk-u4l" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailing" id="AcU-MO-BFX"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="IYo-Hn-r8M" secondAttribute="trailing" id="IW3-eL-bDq"/>
                             <constraint firstItem="2eX-Vk-u4l" firstAttribute="bottom" secondItem="BPJ-Vr-xqL" secondAttribute="bottom" id="aKn-0h-Kpt"/>
                             <constraint firstItem="A26-5B-UMm" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="20" id="nii-bG-T8b"/>
                             <constraint firstItem="IYo-Hn-r8M" firstAttribute="top" secondItem="BPJ-Vr-xqL" secondAttribute="bottom" constant="16" id="qVE-sO-Rip"/>
@@ -62,6 +61,10 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="quoteAuthorLabel" destination="IYo-Hn-r8M" id="XBM-eP-cM5"/>
+                        <outlet property="quoteTextLabel" destination="BPJ-Vr-xqL" id="mL6-25-IMp"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

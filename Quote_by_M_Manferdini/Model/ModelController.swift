@@ -11,7 +11,7 @@ import Foundation
 class ModelController {
     let quoteFilePath = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true).first! + "/quote.txt"
 
-    let quote1 = Quote(text: "Two things are infinite: the universe and human stupidity, and I am not sure about the universe", author: "Albert Einstein")
+    private let quote1 = Quote(text: "Two things are infinite: the universe and human stupidity, and I am not sure about the universe", author: "Albert Einstein")
 
     var quote: Quote {
         get {
