@@ -78,7 +78,13 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <navigationItem key="navigationItem" id="1Ob-Zx-eP1"/>
+                    <navigationItem key="navigationItem" id="1Ob-Zx-eP1">
+                        <barButtonItem key="rightBarButtonItem" systemItem="edit" id="M5S-hT-20H">
+                            <connections>
+                                <segue destination="i42-o9-LVe" kind="show" id="cq1-LI-wRl"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="quoteAuthorLabel" destination="IYo-Hn-r8M" id="XBM-eP-cM5"/>
                         <outlet property="quoteTextLabel" destination="BPJ-Vr-xqL" id="mL6-25-IMp"/>
