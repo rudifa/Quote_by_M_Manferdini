@@ -94,7 +94,7 @@
             </objects>
             <point key="canvasLocation" x="993" y="134"/>
         </scene>
-        <!--View Controller-->
+        <!--Title-->
         <scene sceneID="q9C-ly-BNm">
             <objects>
                 <viewController id="i42-o9-LVe" sceneMemberID="viewController">
@@ -104,6 +104,11 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="e3W-Dx-4hF"/>
                     </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="Title" id="jld-dY-zUU">
+                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="3b2-l8-UIy"/>
+                    </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tM4-F0-bqd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
